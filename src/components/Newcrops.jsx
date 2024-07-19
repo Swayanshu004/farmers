@@ -2,7 +2,7 @@ import React from 'react'
 
 function Newcrops() {
   return (
-    <div className='bg-green-700 w-screen py-10 flex flex-wrap justify-center'>
+    <div className='bg-green-700 w-screen py-10 flex flex-wrap rounded-3xl justify-center'>
         <div className='w-60 flex flex-col items-center justify-center bg-lime-200 rounded-3xl py-5 m-16'>
             <img src="https://images.pexels.com/photos/21581354/pexels-photo-21581354/free-photo-of-men-driving-a-tractor-with-harvest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="na" 
             className='w-52 rounded-3xl'/>
