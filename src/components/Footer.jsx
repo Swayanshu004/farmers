@@ -7,7 +7,6 @@ function Footer() {
     }
   return (
     <div className='w-screen rounded-t-full py-6 px-20 bg-green-700 text-white'>
-        <p className='text-center text-lg font-semibold'>a product by CODINGAASHARAM COMMUNITY</p>
         <div className='w-full flex items-center justify-between'>
             <div>
                 <h3 className='text-lg text-lime-300 mt-3'>For Daily Updates Subscribe By Submitting Your Email Below.</h3>
@@ -25,6 +24,7 @@ function Footer() {
             </div>
             <a href="/" className='text-xl font-semibold bg-lime-200 text-black px-5 py-2 rounded-3xl border-2 border-white hover:bg-lime-400'>GitHub</a>
         </div>
+        <p className='text-center text-lg font-semibold'>a product by CODINGAASHARAM COMMUNITY</p>
     </div>
   )
 }
