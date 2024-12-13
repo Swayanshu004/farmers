@@ -7,13 +7,15 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <>
-    <Navbar />
+    <div className='w-screen relative'>
+      <div className='fixed top-0 w-screen'>
+        <Navbar />  
+      </div>
     <Home />
     <Newcrops />
     <News />
     <Footer /> 
-    </>
+    </div>
   )
 }
 
