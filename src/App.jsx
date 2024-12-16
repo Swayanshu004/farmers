@@ -14,7 +14,9 @@ function App() {
     <Home />
     <Newcrops />
     <News />
-    <Footer /> 
+    <div className='w-screen py-5 px-5'>
+      <Footer /> 
+    </div>
     </div>
   )
 }

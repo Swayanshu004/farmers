@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <header className='my-5 mx-10 py-5 px-10 flex items-center justify-between bg-neutral-800 rounded-lg'>
+    <header className='my-5 mx-5 py-5 px-10 flex items-center justify-between bg-neutral-800 rounded-lg'>
         <a href="/">
           <h1 className='text-4xl text-green-600 font-bold'>farm<span className='text-gray-400'>er</span></h1>
         </a>
