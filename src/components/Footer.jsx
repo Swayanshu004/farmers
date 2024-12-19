@@ -25,7 +25,7 @@ function Footer() {
             <hr />
             <a href="/" className='text-sm md:text-xl font-semibold bg-lime-400 text-black px-3 md:px-5 py-2 rounded-3xl border-2 border-black hover:bg-lime-500'>GitHub</a>
         </div>
-        <p className='text-neutral-200 text-center text-lg font-semibold mt-3'>a product by CODINGAASHARAM COMMUNITY</p>
+        <p className='text-neutral-200 text-center text-xs md:text-lg font-semibold mt-3'>a product by CODINGAASHARAM COMMUNITY</p>
     </div>
   )
 }
